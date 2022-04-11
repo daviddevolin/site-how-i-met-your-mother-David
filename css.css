@@ -1,0 +1,94 @@
+/* css */
+*{
+    margin: 0%; padding: 0%;
+}
+
+body{
+    background-image: url("fundo.jpg") ;
+}
+
+.principal{
+	width: 960px;
+	color: #444;
+	margin: 0 auto;
+	font-family:sans-serif;
+}
+.cabecalho{
+	height:100px;
+}
+.logo-cabecalho{
+	float:left;
+}
+.logo-cabecalho a{
+	font-size:50px;
+	font-style:italic;
+	text-decoration:none;
+	color:#000;
+	display:block;
+	padding:20px 0 0 0;
+}
+.pesquisa{
+	float:right;
+	margin-top:40px;
+	margin-right:10px;
+}
+.temporadas{
+	background:#f1f1f1;
+}
+.temporadas ul li, 
+.temporadas ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+.temporadas ul li{
+	display:inline-block;
+}
+.temporadas ul li a{
+	display:block;
+	color:#000;
+	padding:13px 20px;
+}
+
+.corpo{
+	position:relative;
+	overflow:hidden;
+}
+
+.personagens{
+	float:left;
+}
+.personagens, .personagens:before{
+	width:70%;
+}
+.personagens:before{
+	position:absolute;
+	top:0;
+	left:0;
+	bottom:0;
+	background:#fff;
+	z-index:-1;
+	content:'';
+}
+
+.barra-lateral{
+	float:right;
+}
+.barra-lateral, .barra-lateral:before{
+	width:30%;
+}
+.barra-lateral:before{
+   content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+	right:0;
+    z-index: -1;
+    background: #f1f1f1;
+}
+
+.rodape{
+	padding:20px;
+    text-align:center;
+    background: #f1f1f1
+}
